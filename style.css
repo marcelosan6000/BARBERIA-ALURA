@@ -1,0 +1,226 @@
+body{
+    font-family: 'Montserrat Alternates', sans-serif;;
+}
+header {
+    
+    background-color: #cccccc;
+    padding: 20px 0;
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22 px;
+    text-decoration: none;
+}
+
+nav a:hover {
+
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.oferta {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.oferta li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px #000000 solid;
+    border-radius: 20px;
+    border
+}
+
+.oferta li:hover {
+    border-color: #c78c19;
+
+}
+
+.oferta li:hover h2 {
+    font-size: 33px;
+}
+
+.oferta li:active {
+    border-color: #088c19;
+}
+
+.oferta h2 {
+
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.producto-descripcion {
+
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20 px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+footer {
+    text-align: center;
+    background-image: url(images/bg.jpg);
+    padding: 40px;
+}
+
+.copyright {
+
+    color: #ffffff;
+    font-size: 13px;
+}
+
+main {
+
+    width: 940px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+form {
+
+    margin: 40px 0;
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+/*----------------------------------*/
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+/*CSS para el HOME----------------*/
+
+.banner{
+    width: 100%;
+    
+}
+
+.titulo-principal{
+    
+    text-align: center;
+    font-size: 2em ;
+    margin: 0 0 1em;
+    clear: left;
+
+}
+
+.principal p{
+
+    margin: 0 0 1em;
+}
+.principal strong{
+    
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+    
+}
+
+.utensilios{
+    width: 120px;
+    float: left;
+    margin:  0 20px 20px 0;
+}
+
+.mapa{
+
+    padding: 3em 0;
+
+}
+
+.mapa p{
+
+    margin: 0 0 2ex;
+    text-align: center;
+}
+.imagenDiferenciales{
+    width: 60%;
+}
+.video{
+
+    width: 560PX;
+    margin: 1em auto;
+}
