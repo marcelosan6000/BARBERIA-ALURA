@@ -1,0 +1,71 @@
+body{
+  background-color: #cccccc;
+}
+/*--------------------------*/
+#banner{
+  width: 100%;
+  height: 150;
+  border:1px solid;
+}
+/*--------------------------*/
+.tituloCentralizado{
+  margin-left: 30px;
+  font-size: 33px;
+  font-weight: bold;
+}
+/*--------------------------*/
+#titulo {
+  text-align: center;
+  height :50px;
+  border: 5px solid #9dc767;
+  padding: 20px;
+  margin: 40px;
+}
+/*--------------------------*/
+p {
+  text-align: center  ;
+}
+/*--------------------------*/
+#mision{
+  font-size: 20px;
+  
+}
+/*--------------------------*/
+em strong{
+  color: #FF0000;
+  font-style: italic;
+}
+/*--------------------------*/
+.items{
+  font-style: italic;
+}
+/*--------------------------*/
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+/*--------------------------*/
+h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+/*--------------------------*/
+.diferenciales{
+background: #ffffff;
+padding: 30px;
+
+}
+/*--------------------------*/
+.principal h3{
+  font-size: size 20px;
+  background: #cccccc;
+  padding: 20%;
+}
+/*--------------------------*/
+.imagenDiferenciales{
+width: 50%;
+}
+/*--------------------------*/
