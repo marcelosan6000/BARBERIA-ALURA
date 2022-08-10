@@ -103,12 +103,6 @@ footer {
     font-size: 13px;
 }
 
-main {
-
-    width: 940px;
-    margin: 0 auto;
-    padding: 40px;
-}
 
 form {
 
@@ -176,6 +170,12 @@ th {
     width: 100%;
     
 }
+.principal{
+    padding: 3em;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
 
 .titulo-principal{
     
@@ -184,6 +184,9 @@ th {
     margin: 0 0 1em;
     clear: left;
 
+}
+.titulo-principal:first-letter{
+    font-weight: bold;
 }
 
 .principal p{
@@ -208,7 +211,13 @@ th {
 .mapa{
 
     padding: 3em 0;
+    background: linear-gradient(#fefefe, #888888);
+}
 
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+    
 }
 
 .mapa p{
@@ -216,7 +225,36 @@ th {
     margin: 0 0 2ex;
     text-align: center;
 }
-.imagenDiferenciales{
+
+.diferenciales{
+    padding: 3em 0;
+    background-color: #888888;
+}
+
+.contenido-diferenciales{
+
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align:top;
+}
+.items{
+    line-height: 1.5;
+
+}
+.items:before{
+    content: "★";
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.imagen-diferenciales{
     width: 60%;
 }
 .video{
