@@ -3,13 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=2.0" />
     <title>Barberia Alura</title>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -31,7 +34,11 @@
     <main>
       <section class="principal">
         <h2 class="titulo-principal">Sobre la Barbería Alura:</h2>
-        <img class ="utensilios" src="images/utensilios.jpg" alt="Utensilios de un barbero">
+        <img
+          class="utensilios"
+          src="images/utensilios.jpg"
+          alt="Utensilios de un barbero"
+        />
 
         <p>
           Ubicada en el corazón de la ciudad, la
@@ -62,29 +69,47 @@
       <section class="mapa">
         <h3 class="titulo-principal">Nuestra Ubicación</h3>
         <p>Nuestro establecimiento está ubicado en el centro de la ciudad</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d848.9835859249523!2d-64.41282123640542!3d-31.663015978843173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d573cbf027963%3A0x8eba8805d7320209!2sMalvinas%20Argentinas%201793%2C%20X5186%20Alta%20Gracia%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1660061084630!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mapa-contenido">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d848.9835859249523!2d-64.41282123640542!3d-31.663015978843173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d573cbf027963%3A0x8eba8805d7320209!2sMalvinas%20Argentinas%201793%2C%20X5186%20Alta%20Gracia%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1660061084630!5m2!1ses!2sar"
+            width="100%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </section>
 
       <section class="diferenciales">
         <h3 class="titulo-principal">Diferenciales</h3>
-        <ul>
-          <li class="items">Atención personalizada a los clientes</li>
-          <li class="items">Espacio diferenciado</li>
-          <li class="items">Localización</li>
-          <li class="items">Profesionales calificados</li>
-        </ul>
 
-        <img src="images/diferenciales.jpg"
-         class="imagenDiferenciales" />
+        <div class="contenido-diferenciales">
+          <ul class="lista-diferenciales">
+            <li class="items">Atención personalizada a los clientes</li>
+            <li class="items">Espacio diferenciado</li>
+            <li class="items">Localización</li>
+            <li class="items">Profesionales calificados</li>
+            <li class="items">Puntualidad</li>
+            <li class="items">Limpieza</li>
+          </ul><img src="images/diferenciales.jpg" class="imagen-diferenciales" />
+        </div>
 
-      </section>
 
-      <section class="video">
-        
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/wcVVXUV0YUY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
       </section>
     </main>
-
 
     <footer>
       <img src="images/logo-blanco.png" />
